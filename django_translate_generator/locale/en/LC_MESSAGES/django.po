@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-27 11:35+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Hello, world!"
+msgstr "Hello, world!"
+
+msgid "This program was created to make it easier to translate English to Indonesian or vice versa."
+msgstr "This program was created to make it easier to translate English to Indonesian or vice versa."
+
+msgid "one step further to make work easier."
+msgstr "one step further to make work easier."
+
+msgid "Learn more"
+msgstr "Learn more"
+
+msgid "Choose file"
+msgstr "Choose file"
+
+msgid "Generate ID"
+msgstr "Generate ID"
+
+msgid "Generate EN"
+msgstr "Generate EN"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Dropdown"
+msgstr "Dropdown"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Another action"
+msgstr "Another action"
+
+msgid "Something else here"
+msgstr "Something else here"
+
+msgid "Disabled"
+msgstr "Disabled"
+
+msgid "Search"
+msgstr "Search"

@@ -1,0 +1,56 @@
+{% extends 'tgenerator/base.html' %}
+{% load i18n %}
+
+{% block title %} {{ title }} {% endblock title %}
+
+{% block css %}
+{% endblock css %}
+
+
+{% block content %}
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron text-center">
+    <h1 class="display-4">{% trans 'Hello, world!' %}</h1>
+    <p class="lead">{% trans 'This program was created to make it easier to translate English to Indonesian or vice versa.' %}</p>
+    <hr class="my-4">
+    <p>{% trans 'one step further to make work easier.' %}</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">{% trans 'Learn more' %}</a>
+  </div>
+
+  <!-- Content -->
+  <div class="mb-4 mt-4">
+    <div class="row">
+      <form method="post" id="login" autocomplete="off" class="bg-light border rounded p-5 mx-auto" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-row align-items-center">
+          <div class="col-auto">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="fileexcel" name="fileexcel" accept=".xlsx, application/vnd.ms-excel" required>
+              <label class="custom-file-label" for="fileexcel">{% trans 'Choose file' %}</label>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2 mt-4">
+          <div class="col">
+            <button type="submit" class="btn btn btn-outline-dark btn-block" name="generate" value="id">
+              {% trans 'Generate ID' %}
+            </button>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn btn-outline-dark btn-block" name="generate" value="en">
+              {% trans 'Generate EN' %}
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  {% include 'messages.html'%}
+
+{% endblock content %}
+
+
+{% block js %}
+  {{block.super}}
+
+{% endblock js %}

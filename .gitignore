@@ -1,3 +1,10 @@
+.vscode
+venv
+env
+*.pyc
+*~
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -8,6 +15,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -124,6 +132,12 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
 # SageMath parsed files
 *.sage.py
 
@@ -136,6 +150,7 @@ ENV/
 env.bak/
 venv.bak/
 
+.vscode
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -169,3 +184,22 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.DS_Store
+*.sqlite3
+media/
+*.pyc
+*.db
+*.pid
+
+# Ignore Django Migrations in Development if you are working on team
+# Pycharm and VScode
+.idea
+.vscode
+
+# Only for Development only
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
+translation.xlsx
